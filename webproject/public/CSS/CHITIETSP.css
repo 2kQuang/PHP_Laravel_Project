@@ -1,0 +1,224 @@
+
+body 
+{
+	background: #85001F;
+	padding: 10px 100px 5px 100px;
+}
+a{
+    text-decoration: none;
+}
+#Sach1
+{
+	width: 100%;
+	height: 350px;
+	padding:5px; 
+	clear: both; 
+
+}
+#ThongTin
+{
+	background: #fff;
+	width: 70%;
+	height: 350px;
+	float: left;
+	border-radius: 10px 0px 10px 0px;
+}
+#BaoHanh
+{
+	background: pink;
+	width: 29.5%;
+	height: 350px;
+	float: right;
+}
+#Sach2
+{
+	margin-top: 5px;
+	width: 100%;
+	height: auto;
+	padding:5px;
+	clear: both; 
+}
+#Sach3
+{
+	margin-top: 5px;
+	background: green;
+	width: 100%;
+	height: 350px;
+	padding:5px; 
+	clear: both; 
+}
+
+.Anh 
+{
+  float: left;
+  margin-right: 20px;
+}
+.Anh img 
+{
+  height: 240px;
+  width: 160px;
+  padding: 5px;
+}
+.Anh img:hover 
+{
+  transform: scale(1.6);
+}
+#Q
+{
+	
+}
+.e
+{
+	font-size: 28px;
+    color: #1c1c1c;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0px 20px 10px;
+    border-bottom: 3px solid #ebebeb;
+}
+.Gia
+{
+	
+    padding: 5px 0px 20px 0px;
+    margin-bottom: 30px;
+}
+#GiaBan
+{
+	font-family: Montserrat-SemiBold;
+	font-size: 30px;
+    color: #ff5800;
+
+}
+#TinhTrang
+{
+	padding: -10px 10px 5px 0px;
+	box-sizing: border-box;
+}
+#TinhTrang1
+{
+	float: left;
+    padding: 6px 0;
+    margin-right: 10px;
+    color: #747474;
+    font-size: 18px;
+    width: auto;
+
+}
+#TinhTrang2
+{
+	display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid #d2d2d2;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #747474;;
+    line-height: 23px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+form
+{
+	padding-top: 10px;
+}
+form label
+{
+	
+}
+form input
+{
+	width: 50px;
+	margin-left: 20px;
+}
+.Nut
+{
+````margin-right: 20px;
+    margin-bottom: 10px;
+    width: 210px;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat-Regular;
+    border-radius: 5px;
+    background: #666;
+    color:  #E9E9E9;
+    float: left;
+}
+
+.widget-box:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+   
+}
+.widget-box:last-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+   
+}
+.widget-box {
+    background: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 340px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-weight: 600;
+
+}
+.returnpolicy {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px 15px 30px;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #1c1c1c;
+    line-height: 22px;
+}
+.menu-list li a {
+    display: block;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1px 0px;
+    font-family: Montserrat-SemiBold;
+}
+/*fffffffffffffffffffff*/
+#ChiTiet1 
+{
+    font-size: 24px;
+    font-family: Montserrat-SemiBold;
+    margin: 20px 0;
+    color: #666;
+}
+#ChiTiet1 span
+{
+	font-family: Montserrat-Regular;
+    color: #666 !important;
+    font-weight: normal;
+}
+.ChiTiet2
+{
+    padding: 15px 15px;
+    border-bottom: 2px solid #ebebeb;
+    background: #fff;
+}
+}
+.label1
+{
+    
+}
+.value 
+{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 200px;
+}
+.label1
+{
+	display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    font-size: 14px;
+}

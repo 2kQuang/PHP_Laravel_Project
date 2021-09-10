@@ -1,0 +1,253 @@
+body 
+{
+  background: #e48787;
+  padding: 10px 100px 5px 100px;
+}
+a{
+    text-decoration: none;
+}
+.noidung
+{
+  background: #fff;
+  height: auto;
+  width: 845px;
+  float: right;
+  margin-top: 5px;
+}
+
+.vertical-menu {
+  width: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #85001F;
+  color: white;
+  text-align: center;
+  
+}
+
+#danhsach
+{
+	background-color:  #ffffff;
+	height: auto;
+	width: 275px;
+	float: left;
+	margin: 5px;
+  position:absolute;
+  border: 2px solid #5d4d4d;
+
+}
+
+ol{
+  counter-reset: li;
+  list-style: none; 
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol{
+  margin: 0 0 0 2em; 
+}
+.rounded-list a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  margin: .5em 0;
+  background: #EAEAEA;
+  color: #f16717;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: all .3s ease-out; 
+  width: 200px;
+  height: 60px;
+}
+
+.rounded-list a:hover{
+  background: #eee;
+  border: .3em solid #FFD700;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list a:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute; 
+  left: -1.3em;
+  top: 39%;
+  margin-top: -1.3em;
+  background: #87ceeb;
+  height: 3em;
+  width: 3em;
+  line-height: 3.5em;
+  border: .3em solid #779c8a;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3em;
+  transition: all .3s ease-out;
+}
+.rounded-list li a img
+{
+  height: 60px;
+  width: 43px;
+  margin-left: 12px;
+}
+.rounded-list li a p
+{
+  margin-left: 70px;
+  margin-top: 0px;
+  font-weight: bold;
+} 
+.rounded-list #ten_monan
+{
+  color: #85001F;
+  font-size: 14px;
+}
+
+.rounded-list #ten_monan:hover
+{
+  color:     #85001F;
+ 
+}
+.rounded-list #danhgia
+{
+  font-size: 15px;
+}
+
+#danhsach .ten_ds p
+{
+ 
+  text-align: center;
+  font-weight: bold;
+  background-color: #85001F;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 1px;
+  text-transform: uppercase;
+  margin: 0;
+  border-left: 5px solid #0f9ed8;
+  color: #ffffff;
+}
+
+#danhsach #danhmuc  p
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: #00709d;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 1px;
+  text-transform: uppercase;
+  margin: 0;
+  border-left: 5px solid #0f9ed8;
+}
+#danhsach #danhmuc ul
+{
+  list-style: none;
+  display: block;
+  
+  position: relative;
+  background-color: #f6f6f6;
+}
+#danhsach #danhmuc ul li a
+{
+  padding-left: 10px;
+  padding-top: 15px;
+  margin: 0 7px;
+  color:  #85001F;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dashed #c3c3c3;
+  display: block;
+  margin-left: -30px; 
+}
+.tieude
+{
+  padding-top: 7px;
+  padding-left: 5px;
+  font-size: 30px;
+  margin: 0px 0px 15px 0px;
+  color: #333333;
+  line-height: 30px;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 5px
+}
+#sapxep 
+{
+  float: right;
+  margin-right: 20px;
+  padding: 5px;
+  border:  1px solid #bbb;
+}
+#sapxep select
+{
+  border: none;
+}
+.danhsach ul
+{
+  list-style-type: none;
+  clear: both;
+  margin-left: -27px;
+  margin-top: 60px;
+}
+
+.danhsach  ul li
+{
+  height:262px;
+  width:188px;
+  background: #85001F;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.danhsach  ul li img
+{
+  margin-left: 5px;
+  margin-top: 3px;
+  height:190px;
+  width:181px;
+  margin-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.danhsach  ul li h3
+{
+  text-align: center;
+  margin-top: -1px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.danhsach  ul li p
+{
+  text-align: center;
+  margin-top: -2px;
+  font-weight: bold;
+  color: #d65656;
+}
+.danhsach  ul li span
+{
+
+  padding-left: 1px;
+}
+
+

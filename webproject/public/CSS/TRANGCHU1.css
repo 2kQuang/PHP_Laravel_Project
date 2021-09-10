@@ -1,0 +1,78 @@
+
+body 
+{
+	background: #fff ;
+	padding: 10px 100px 5px 100px;
+}
+a{
+    text-decoration: none;
+}
+#logo img
+{
+	height: 456px;
+	width: 1120px;
+}
+.mySlides
+{
+	height: 346px;
+	width: 1130px
+}
+#Q
+{
+	
+	text-align: center;	
+}
+#Q h2
+{
+	font-size: 15px;
+	color: #85001F;
+	font-weight: normal;
+}
+.e
+{
+	font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: -5px; 
+    border-bottom: 3px solid #85001F;
+    color: #85001F
+}
+.danhsach ul
+{
+  list-style-type: none;
+  clear: both;
+  margin-left: -27px;
+  margin-top: 40px;
+}
+
+.danhsach  ul li
+{
+  height:406px;
+  width:229px;
+  background: #b55149;
+  float: left;
+  margin-right: 55px;
+  margin-bottom: 50px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.danhsach  ul li img
+{
+	margin-top: 5px;
+	height:260px;
+ 	width:210px;
+ 	margin-bottom: 0px;
+ 	border-top-left-radius: 11px;
+  	border-top-right-radius: 11px;
+}
+.danhsach  ul li p
+{
+	margin-top: -2px;
+}
+.b h6
+{
+  font-size: 15px;
+  color: #85001F;
+  font-weight: normal;
+  
+}

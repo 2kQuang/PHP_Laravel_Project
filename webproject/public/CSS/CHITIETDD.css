@@ -1,0 +1,285 @@
+
+body 
+{
+	background: #e48787;
+	padding: 10px 100px 5px 100px;
+}
+a{
+    text-decoration: none;
+}
+#Sach1
+{
+	width: 100%;
+	height: 350px;
+	padding:5px; 
+	clear: both; 
+
+}
+#ThongTin
+{
+	background:#EAEAEA;
+	width: 74%;
+	height: 311px;
+	float: left;
+	border-radius: 10px 0px 10px 0px;
+}
+#BaoHanh
+{
+	
+	height: 350px;
+	float: right;
+}
+#Sach2
+{
+	margin-top: 5px;
+	width: 100%;
+	height: auto;
+	padding:5px;
+	clear: both; 
+}
+#Sach3
+{
+	margin-top: 5px;
+	background: green;
+	width: 100%;
+	height: 350px;
+	padding:5px; 
+	clear: both; 
+}
+#Sach4
+{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    padding:5px; 
+    clear: both; 
+
+}
+.danhsach ul
+{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -9px;
+}
+
+.danhsach  ul li
+{
+    float: left;
+    height:291px;
+    width:200px;
+    background: #85001F;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 64px;
+}
+.danhsach  ul li a img
+{
+    margin-top: 11px;
+    height: 224px;
+    width: 188px;
+    margin-bottom: 10px;
+}
+.danhsach  ul li p
+{
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.danhsach  ul li h4
+{
+    margin-top: -2px;
+    color: red;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+.Anh 
+{
+  float: left;
+  margin-right: 20px;
+}
+.Anh img 
+{
+    height: 289px;
+    width: 406px;
+    padding: 5px;
+    padding-top: 12px;
+}
+}
+.Anh img:hover 
+{
+  transform: scale(1.6);
+}
+#Q
+{
+	margin-top: 12px;
+    
+}
+.e
+{
+	font-size: 28px;
+    color: #1c1c1c;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0px 20px 10px;
+    border-bottom: 3px solid #ebebeb;
+}
+.Gia
+{
+    width: 930px;
+	
+    margin-bottom: 23px;
+    margin-top: 4px;
+}
+}
+#GiaBan
+{
+	font-family: Montserrat-SemiBold;
+	font-size: 30px;
+    color: #ff5800;
+
+}
+#TinhTrang
+{
+	padding: -10px 10px 5px 0px;
+	box-sizing: border-box;
+}
+#TinhTrang1
+{
+	float: left;
+    padding: 6px 0;
+    margin-right: 10px;
+  /*  color: #747474;*/
+    font-size: 18px;
+    width: auto;
+
+}
+#TinhTrang2
+{
+	display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid #d2d2d2;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #48141f;
+    line-height: 23px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+form
+{
+	padding-top: 10px;
+}
+form label
+{
+	
+}
+form input
+{
+	width: 50px;
+	margin-left: 20px;
+}
+.Nut
+{
+````margin-right: 20px;
+    margin-bottom: 10px;
+    width: 210px;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat-Regular;
+    border-radius: 5px;
+    background: #666;
+    color:  #E9E9E9;
+    float: left;
+}
+
+.widget-box:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+   
+}
+.widget-box:last-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 5px;
+   
+}
+.widget-box {
+    padding: 10px 3px;
+    display: inline-block;
+    width: 340px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-weight: 600
+
+}
+.returnpolicy {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px 15px 30px;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #1c1c1c;
+    line-height: 22px;
+}
+.menu-list li  {
+    border: groove;
+    float: left;
+   height: 87px;
+    width: 72px;
+    margin-right: 12px;
+    padding: 2.5px;
+}
+.widget-box ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+/*fffffffffffffffffffff*/
+#ChiTiet1 
+{
+    font-size: 24px;
+    font-family: Montserrat-SemiBold;
+    margin: 20px 0;
+   
+}
+#ChiTiet1 span
+{
+	font-family: Montserrat-Regular;
+    color: #666 !important;
+    font-weight: normal;
+}
+.ChiTiet2
+{
+    padding: 15px 15px;
+    border-bottom: 2px solid #ebebeb;
+    background: #fff;
+}
+}
+.label1
+{
+    
+}
+.value 
+{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 200px;
+}
+.label1
+{
+	display: inline-block;
+    width: 150px;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.widget-box ul li a {
+    color: #1c1c1c;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.widget-box ul li p {
+  
+    margin-left: 15px;
+    font-size: 20px;
+}
